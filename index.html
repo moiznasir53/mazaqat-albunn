@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -402,7 +402,7 @@
     .select-wrap select {
       padding-left: 38px;
     }
-    select option { direction: rtl; }
+    select option { direction: ltr; }
 
     /* ─── SUBMIT BUTTON ──────────────────────────────────── */
     .btn-submit {
@@ -690,13 +690,13 @@
           <!-- 1. Full Name -->
           <div class="field-group">
             <label for="fullName">
-              <span class="required-star">*</span> الاسم الكامل (كما في بطاقة المدرسة)
+              <span class="required-star">*</span> Full Name - as on JHS
             </label>
             <input
               type="text"
               id="fullName"
               name="full-name"
-              placeholder="أدخل اسمك الكامل كما هو في JHS"
+              placeholder="Enter your full name as on your JHS card"
               required
               autocomplete="name"
             />
@@ -705,14 +705,14 @@
           <!-- 2. Darajah (fixed) -->
           <div class="field-group">
             <label for="darajah">
-              <span class="required-star">*</span> الدرجة
+              <span class="required-star">*</span> Darajah
             </label>
             <div class="field-fixed">
               <input
                 type="text"
                 id="darajah"
                 name="darajah"
-                value="سادسة – Sadesa"
+                value="Sadesa"
                 readonly
               />
               <span class="lock-icon">🔒</span>
@@ -722,11 +722,11 @@
           <!-- 3. Division -->
           <div class="field-group">
             <label for="division">
-              <span class="required-star">*</span> الشعبة (Division)
+              <span class="required-star">*</span> Class Division
             </label>
             <div class="select-wrap">
               <select id="division" name="division" required>
-                <option value="" disabled selected>اختر شعبتك…</option>
+                <option value="" disabled selected>Select Your Division</option>
                 <option value="Alif – ألف">Alif – ألف</option>
                 <option value="Be – باء">Be – باء</option>
                 <option value="Jeem – جيم">Jeem – جيم</option>
